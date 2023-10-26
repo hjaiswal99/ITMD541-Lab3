@@ -19,13 +19,12 @@ body {
 #headline {
     text-align: center;
     padding: 10px;
-    color: #f39c12; /* Text color */
 }
 
 #headline {
     margin-bottom: 10px;
     text-decoration: underline;
-    color: #e74c3c; /* Text color */
+    color: #2c3e50; /* Dark text color */
 }
 
 #tip_cal {
@@ -54,4 +53,4 @@ form {
     color: #2c3e50; /* Text color */
 }
 
-/* You can adjust the colors as you like for your preferred style. */
+/* You can adjust the colors as needed to achieve your preferred style. */
