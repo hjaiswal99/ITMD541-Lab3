@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -9,27 +8,31 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 900px;
-    background: #006699;
+    background: linear-gradient(45deg, #2c3e50, #3498db);
     background-size: 100% 50%;
     background-repeat: no-repeat;
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
 }
 
 #info,
 #headline {
     text-align: center;
     padding: 10px;
+    color: #f39c12; /* Text color */
 }
-#headline{margin-bottom: 10px;
+
+#headline {
+    margin-bottom: 10px;
     text-decoration: underline;
-
+    color: #e74c3c; /* Text color */
 }
 
-
-
-#tip_cal{
-    background-color: white;
+#tip_cal {
+    background-color: #ecf0f1; /* Light gray background */
     padding: 35px;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
 }
 
 form {
@@ -41,9 +44,12 @@ form {
 .form-label {
     font-family: 'WildWest';
     font-size: 1.3rem;
+    color: #27ae60; /* Text color */
 }
 
-.form-input{
-    border: 2px solid black ;
+.form-input {
+    border: 2px solid #34495e; /* Dark border color */
     border-radius: 5px;
+    padding: 5px; /* Add some padding to the input fields */
+    color: #2c3e50; /* Text color */
 }
