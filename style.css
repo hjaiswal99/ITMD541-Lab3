@@ -19,14 +19,14 @@ body {
 #headline {
     text-align: center;
     padding: 10px;
-    color: #d35400; /* Darker orange color */
+    color: #964b00; /* Brown color */
     font-weight: bold; /* Bold text */
 }
 
 #headline {
     margin-bottom: 10px;
     text-decoration: underline;
-    color: #c0392b; /* Dark red color */
+    color: #8e44ad; /* Purple color */
     font-weight: bold; /* Bold text */
 }
 
@@ -47,7 +47,7 @@ form {
 .form-label {
     font-family: 'WildWest';
     font-size: 1.3rem;
-    color: #d35400; /* Darker orange color */
+    color: #964b00; /* Brown color */
     font-weight: bold; /* Bold text */
 }
 
