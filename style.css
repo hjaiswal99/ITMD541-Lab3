@@ -8,34 +8,32 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 900px;
-    background: linear-gradient(45deg, #2c3e50, #3498db);
+    background: linear-gradient(45deg, #222, #333); /* Dark background gradient */
     background-size: 100% 50%;
     background-repeat: no-repeat;
-    color: #bdc3c7; /* Text color (light gray) */
-    font-family: Arial, sans-serif; /* Font family */
+    color: #ddd; /* Light gray text color */
+    font-family: Arial, sans-serif;
 }
 
 #info,
 #headline {
     text-align: center;
     padding: 10px;
-    color: #964b00; /* Brown color */
-    font-weight: bold; /* Bold text */
+    color: #e74c3c; /* Red text color */
 }
 
 #headline {
     margin-bottom: 10px;
     text-decoration: underline;
-    color: #8e44ad; /* Purple color */
-    font-weight: bold; /* Bold text */
+    color: #f39c12; /* Orange text color */
 }
 
 #tip_cal {
-    background-color: #ecf0f1; /* Light gray background */
+    background-color: #444; /* Dark gray background */
     padding: 35px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
-    color: #34495e; /* Text color (dark gray) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    color: #666; /* Light gray text color */
 }
 
 form {
@@ -47,15 +45,14 @@ form {
 .form-label {
     font-family: 'WildWest';
     font-size: 1.3rem;
-    color: #964b00; /* Brown color */
-    font-weight: bold; /* Bold text */
+    color: #3498db; /* Blue text color */
 }
 
 .form-input {
-    border: 2px solid #27ae60; /* Dark border color (green) */
+    border: 2px solid #e67e22; /* Dark orange border color */
     border-radius: 5px;
-    padding: 5px; /* Add some padding to the input fields */
-    color: #8e44ad; /* Text color (purple) */
+    padding: 5px;
+    color: #9b59b6; /* Purple text color */
 }
 
-/* You can adjust the colors and font weights as you like for your preferred style. */
+/* You can further adjust the colors to your liking for your preferred dark style. */
