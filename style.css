@@ -25,7 +25,7 @@ body {
 #headline {
     margin-bottom: 10px;
     text-decoration: underline;
-    color: #3498db; /* Text color (blue) */
+    color: #e67e22; /* Text color (dark orange) */
 }
 
 #tip_cal {
@@ -45,7 +45,7 @@ form {
 .form-label {
     font-family: 'WildWest';
     font-size: 1.3rem;
-    color: #e67e22; /* Text color (orange) */
+    color: #e67e22; /* Text color (dark orange) */
 }
 
 .form-input {
