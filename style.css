@@ -19,13 +19,15 @@ body {
 #headline {
     text-align: center;
     padding: 10px;
-    color: #e74c3c; /* Text color (red) */
+    color: #d35400; /* Darker orange color */
+    font-weight: bold; /* Bold text */
 }
 
 #headline {
     margin-bottom: 10px;
     text-decoration: underline;
-    color: #e67e22; /* Text color (dark orange) */
+    color: #c0392b; /* Dark red color */
+    font-weight: bold; /* Bold text */
 }
 
 #tip_cal {
@@ -45,7 +47,8 @@ form {
 .form-label {
     font-family: 'WildWest';
     font-size: 1.3rem;
-    color: #e67e22; /* Text color (dark orange) */
+    color: #d35400; /* Darker orange color */
+    font-weight: bold; /* Bold text */
 }
 
 .form-input {
@@ -55,4 +58,4 @@ form {
     color: #8e44ad; /* Text color (purple) */
 }
 
-/* You can adjust the colors as you like for your preferred style. */
+/* You can adjust the colors and font weights as you like for your preferred style. */
