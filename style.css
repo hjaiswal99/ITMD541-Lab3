@@ -11,7 +11,7 @@ body {
     background: linear-gradient(45deg, #2c3e50, #3498db);
     background-size: 100% 50%;
     background-repeat: no-repeat;
-    color: #fff; /* Text color */
+    color: #333; /* Dark text color */
     font-family: Arial, sans-serif; /* Font family */
 }
 
@@ -19,13 +19,13 @@ body {
 #headline {
     text-align: center;
     padding: 10px;
-    color: #f39c12; /* Text color */
+    color: #555; /* Dark text color */
 }
 
 #headline {
     margin-bottom: 10px;
     text-decoration: underline;
-    color: #e74c3c; /* Text color */
+    color: #444; /* Dark text color */
 }
 
 #tip_cal {
@@ -44,14 +44,14 @@ form {
 .form-label {
     font-family: 'WildWest';
     font-size: 1.3rem;
-    color: #27ae60; /* Text color */
+    color: #666; /* Dark text color */
 }
 
 .form-input {
-    border: 2px solid #34495e; /* Dark border color */
+    border: 2px solid #333; /* Dark border color */
     border-radius: 5px;
     padding: 5px; /* Add some padding to the input fields */
-    color: #2c3e50; /* Text color */
+    color: #333; /* Dark text color */
 }
 
-/* You can adjust the colors as you like for your preferred style. */
+/* You can adjust the colors further if needed. */
