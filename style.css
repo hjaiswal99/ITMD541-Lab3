@@ -8,10 +8,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 900px;
-    background: #2E4053; /* A deep blue background */
+    background: linear-gradient(45deg, #2c3e50, #3498db);
     background-size: 100% 50%;
     background-repeat: no-repeat;
-    color: #ECF0F1; /* Light text color */
+    color: #fff; /* Text color */
     font-family: Arial, sans-serif; /* Font family */
 }
 
@@ -19,17 +19,17 @@ body {
 #headline {
     text-align: center;
     padding: 10px;
-    color: #3498DB; /* A bright blue text color */
+    color: #f39c12; /* Text color */
 }
 
 #headline {
     margin-bottom: 10px;
     text-decoration: underline;
-    color: #E74C3C; /* A red text color */
+    color: #e74c3c; /* Text color */
 }
 
 #tip_cal {
-    background-color: #ECF0F1; /* Light gray background */
+    background-color: #ecf0f1; /* Light gray background */
     padding: 35px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
@@ -44,14 +44,14 @@ form {
 .form-label {
     font-family: 'WildWest';
     font-size: 1.3rem;
-    color: #D35400; /* A shade of orange text color */
+    color: #27ae60; /* Text color */
 }
 
 .form-input {
-    border: 2px solid #16A085; /* A teal border color */
+    border: 2px solid #34495e; /* Dark border color */
     border-radius: 5px;
     padding: 5px; /* Add some padding to the input fields */
-    color: #2C3E50; /* A dark text color */
+    color: #2c3e50; /* Text color */
 }
 
-/* You can further adjust the colors to your liking for your preferred style. */
+/* You can adjust the colors as you like for your preferred style. */
