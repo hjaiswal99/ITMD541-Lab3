@@ -8,7 +8,7 @@ bill_t.addEventListener("change", calculateTip);
 slider.addEventListener("input", calculateTip);
 
 function calculateTip() {
-    if (isNaN(bill_t.value)) {
+    if (isNaN(bill_t.value) || parseFloat(bill_t.value) < 0) {
         alert("ENTER A VALID INPUT")
     }
     bill_t.value = parseFloat(bill_t.value).toFixed(2);
